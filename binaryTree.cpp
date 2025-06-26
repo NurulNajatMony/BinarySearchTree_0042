@@ -41,3 +41,8 @@ public:
         // Step 3: Make the left and right child of the new node point
         newNode->leftchild = nullptr;
         newNode->rightchild = nullptr;
+
+        // Step 4: Locate the node which will be the parent of the new node to be
+        Node *parent =  nullptr;
+        Node *currentNode = nullptr;
+        search(x, parent, currentNode);
