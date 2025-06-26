@@ -147,3 +147,9 @@ public:
         return ROOT == nullptr;
     }
 };
+
+int main()
+{
+    BinaryTree x;
+    while (true)
+    {
